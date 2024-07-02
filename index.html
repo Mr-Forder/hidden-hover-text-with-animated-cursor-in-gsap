@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden text mask with Gsap</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div style="background-color: #f8f9fa; position: relative; padding-bottom: 3rem;">
+        <div class="content">
+            <div class="container">
+                <div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+                    <div style="width: 100%; max-width: 80%; margin: 0 auto;">
+                        <p style="font-size: 2.5rem; font-weight: bold; text-align: center;">
+                            "He bought a new suit for the job interview."
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="hidden-content">
+            <div class="container">
+                <div style="display: flex; justify-content: center; align-items: center; min-height: 100vh;">
+                    <div style="width: 100%; max-width: 80%; margin: 0 auto;">
+                        <p style="font-size: 2.5rem; font-weight: bold; text-align: center;">
+                            "He bought a new flute for the jazz concert."
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
